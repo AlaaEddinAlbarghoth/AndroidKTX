@@ -58,6 +58,9 @@ dependencies {
 
   implementation 'com.theartofdev.edmodo:android-image-cropper:2.7.0'
 
+  /** Add a dependency to the androidx core */
+  implementation "androidx.core:core-ktx:1.2.0-alpha01"
+
   testImplementation 'junit:junit:4.12'
   androidTestImplementation "androidx.test:runner:1.2.0"
   androidTestImplementation "androidx.test.espresso:espresso-core:3.2.0"
